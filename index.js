@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-const PORT = 3000;
+const PORT = 3000; 
 
 app.get("/first", (req, res) => res.send("first"));
 
